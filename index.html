@@ -5,19 +5,47 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akan Name</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
-<body>
-<p>Akan names are derived from Ghanian culture.
-   Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.<br>
-  Wonna know you Akan Name? please enter you birthday details below!!</p>
-  <form>
-    <label for="date">Date:</label><br>
-    <input type="number" id="date" name="date"><br>
-    <label for="month">Month:</label><br>
-    <input type="number" id="month" name="month" ><br>
-    <label for="lname">Year:</label><br>
-    <input type="number" id="year" name="year">
-  </form>
+<body background="red">
+
+    <div class="container py-6">
+      <div class="card" >
+          
+          <div class="card-body">
+
+            <p><h2><br><em>Akan Name</em></i></p></h2>
+
+            <p>Akan names are derived from Ghanian culture.
+              Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
+             Wanna know your Akan Name? please enter you birthday details below!!</p>
+          
+            <form id="form">
+               <label for="date">Date:</label><br>
+                <input type="number" id="date" name="date" value="1"><br>
+                <label for="month">Month:</label><br>
+                <input type="number" id="month" name="month" ><br>
+                <label for="year">Year:</label><br>
+                <input type="number" id="year" name="year" min="1920" max="2022"><br>
+                <p>Select your gender:</p>
+                <input type="radio" id="gender" name="gender" value="female"><label for="gender">Female</label>
+                 
+                  <input type="radio" id="gender" name="gender" value="male"><label for="gender">Male</label><br>
+                 
+  
+                
+                <button type="button" class="btn btn-primary" onclick="displayDay()">Submit</button>
+             
+                </form> 
+          </div>
+        </div>
+
+
+          </div>
+      </div>
+
+      <script src="./Js/main.js"></script>
+  </div>
   
 </body>
 </html>

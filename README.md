@@ -3,7 +3,7 @@
 ## Project Name 
   Akan Name
 
- ##User Story
+ ## User Story
  As a user, I would like to;
 
 1. See a  small description of what the application does on the landing page.
@@ -24,10 +24,20 @@
 - And Select their gender
 - Then the user is able to see their Akan Name and the day of the week they were born
 
+## Technologies Used
+- HTML
+- Javascript
+- Bootstrap
+- CSS
+
+## Contact Information
+student.moringaschool.com
+
+
  ## Project Setup Instructions
 - git clone hhttps://github.com/schebiwot/Akan-Name.git
- -Open cloned code on vs code
- -run with live server
+- Open cloned code on vs code
+- run with live server
 
  ## Link To Live Site On Github Pages
  https://schebiwot/github.io//Akan-Name.git

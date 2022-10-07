@@ -1,0 +1,15 @@
+
+#body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+background-color: #585f63;
+}
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 5px; /* Added */
+    width: 50rem;
+
+}

@@ -6,43 +6,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akan Name</title>
   <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./CSS/custom.css">
 </head>
-<body background="red">
+<body id="body">
+<div class="card" >
+    <img class="card-img-top" src="./Imgs/hklo.jpeg" alt="Card image cap" height="250">
+    <div class="card-body">
+      <p class="card-text">
+        <p><h2><br><em>Akan Name</em></i></p></h2>
 
-    <div class="container py-6">
-      <div class="card" >
-          
-          <div class="card-body">
-
-            <p><h2><br><em>Akan Name</em></i></p></h2>
-
-            <p>Akan names are derived from Ghanian culture.
-              Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
-             Wanna know your Akan Name? please enter you birthday details below!!</p>
-          
-            <form id="form">
-               <label for="date">Date:</label><br>
-                <input type="number" id="date" name="date" value="1"><br>
-                <label for="month">Month:</label><br>
-                <input type="number" id="month" name="month" ><br>
-                <label for="year">Year:</label><br>
-                <input type="number" id="year" name="year" min="1920" max="2022"><br>
-                <p>Select your gender:</p>
-                <input type="radio" id="gender" name="gender" value="female"><label for="gender">Female</label>
+      <p>Akan names are derived from Ghanian culture.
+        Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
+       Wanna know your Akan Name? please enter you birthday details below!!</p>
+    
+      <form id="form">
+         <label for="date">Date:</label><br>
+          <input type="number" id="date" name="date"required> <br>
+          <label for="month">Month:</label><br>
+          <input type="number" id="month" name="month" required ><br>
+          <label for="year">Year:</label><br>
+          <input type="number" id="year" name="year" min="1920" max="2022" required><br>
+          <p>Select your gender:</p>
+          <input type="radio" id="gender" name="gender" value="female"><label for="gender">Female</label>
                  
-                  <input type="radio" id="gender" name="gender" value="male"><label for="gender">Male</label><br>
+          <input type="radio" id="gender2" name="gender" value="male"><label for="gender">Male</label><br>
                  
   
-                
-                <button type="button" class="btn btn-primary" onclick="displayDay()">Submit</button>
-             
-                </form> 
+          
+          <button type="button" class="btn btn-primary" onclick="displayDay()">Submit</button>
+       
+          </form> </p>
+    </div>
+  </div>
+      
+
+           
           </div>
         </div>
 
 
-          </div>
-      </div>
+         
 
       <script src="./Js/main.js"></script>
   </div>

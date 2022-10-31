@@ -40,7 +40,7 @@ student.moringaschool.com
 - run with live server
 
  ## Link To Live Site On Github Pages
- https://schebiwot/github.io//Akan-Name.git
+https://schebiwot.github.io/Akan-Name/
 
 
  ## Copyright And Licence Information

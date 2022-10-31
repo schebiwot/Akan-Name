@@ -35,7 +35,7 @@ student.moringaschool.com
 
 
  ## Project Setup Instructions
-- git clone hhttps://github.com/schebiwot/Akan-Name.git
+- git clone https://github.com/schebiwot/Akan-Name.git
 - Open cloned code on vs code
 - run with live server
 

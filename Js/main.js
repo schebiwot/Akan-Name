@@ -9,7 +9,6 @@ function displayDay(){
     var yy = document.getElementById("year").value;
    
     var cc = parseInt(yy.slice(0,2)); 
-    //var yy = parseInt(year.slice(2,4)); 
 
     if(dd <= 0 || dd > 31) alert("You have entered an invalid day");
     if(mm <= 0 || mm > 12) alert("You have entered an invalid month");
